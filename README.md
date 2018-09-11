@@ -13,8 +13,11 @@ User can change these configurations at LCD_config.h file, you will also find th
 ## Example for using the driver:
 
 #include <avr/io.h>
+
 #include <util/delay.h>
+
 #include "../libs/LCD_prog.c"
+
 #define F_CPU 120000000      // FCPU Definition for util/delay
 
 
